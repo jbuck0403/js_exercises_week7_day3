@@ -1,0 +1,68 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.pokedex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.pokedex-container input {
+  background-color: rgb(52, 50, 50);
+  border-radius: 5px;
+  height: 20px;
+  color: white;
+  padding-left: 10px;
+}
+
+.pokedex-container button {
+  background-color: red;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+.pokedex-container ul {
+  padding: 0;
+}
+
+.pokedex-wrapper {
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgba(255, 0, 0, 0.398);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.sprite-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sprite {
+  height: 300px;
+  width: auto;
+}
+
+.name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.abilities {
+  text-align: center;
+}
+
+.ability {
+  list-style: none;
+}
